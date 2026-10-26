@@ -1,0 +1,13 @@
+{
+  "_help": "Case-insensitive name regexes. Tables use [label, regex], first match wins. Paths use [Assets-relative prefix, category, subcategory]. Restart the server and rescan after editing.",
+  "unused_as_skip": false,
+  "skip_name": "^(sactx-|default|font|lut|noise|mask|white$|black$|pixel$|square$|circle$|gradient)|( sdf|sdf atlas|font atlas)",
+  "vfx_name": "(particle|glow|flare|smoke|spark|trail|fx_|_fx|explosion|beam|dust)",
+  "ui_name": "(icon|portrait|badge|button|popup|banner|arrow|check|panel|slider)",
+  "data_hints": [],
+  "ui_sub": [["icons", "icon"], ["buttons", "button|btn"], ["panels", "panel|popup"]],
+  "game_sub": [["characters", "hero|player|character"], ["environment", "tree|rock|ground|wall"]],
+  "spine_sub": [],
+  "path_rules": [],
+  "resources_folder_as": ["Game", "other"]
+}

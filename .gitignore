@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+project.json
+rules.json
+.env
+.env.*
+!.env.example
+*.lnk
+.DS_Store
+Thumbs.db
