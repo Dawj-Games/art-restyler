@@ -1,3 +1,7 @@
+![Art Restyler — Restyle your Unity art, by Dawj Games](docs/media/art-restyler-banner.png)
+
+<img src="docs/media/art-restyler-icon.png" alt="Art Restyler app icon: a brush over an emerald sprite tile" width="88" align="right">
+
 # Art Restyler for Unity
 
 **Restyle your Unity project's 2D art with an AI-assisted workflow you can review and roll back.**
@@ -5,6 +9,18 @@
 Art Restyler catalogs textures, follows their GUID references, prepares image-generation prompts and inputs, imports replacement images, and checks their layout before you accept and apply them. It runs locally as a Python web app alongside your Unity project.
 
 Built by [Dawj Games](https://github.com/Dawj-Games). Open source under the [MIT License](LICENSE).
+
+## Inside the app
+
+Browse the asset catalog, inspect references and generation attempts, and check replacements before changing your project.
+
+![Real Art Restyler asset catalog showing synthetic fantasy icons, categories, metadata, and validation checks](docs/media/app-catalog.jpg)
+
+Compare original and replacement images in the review screen, then accept, reject, apply, or roll back.
+
+![Real Art Restyler review screen showing original and replacement icons side by side](docs/media/app-review.jpg)
+
+These are actual app screenshots using original synthetic demo assets. The replacement examples use the local test recolor provider to demonstrate review controls; they are not AI-generated restyling benchmarks. The banner and icon are AI-generated branding illustrations. See [media details and prompts](docs/media/README.md).
 
 ## What it does
 
